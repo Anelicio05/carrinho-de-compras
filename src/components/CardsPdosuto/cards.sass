@@ -1,0 +1,14 @@
+@mixin alinhaCentro()
+    display: flex
+    justify-content: center
+    
+#produtos li
+    @include alinhaCentro()
+    flex-direction: column
+    align-items: center
+    background-color: #0098ab
+    padding: 1rem
+    gap: 15px
+
+#produtos img
+    width: 200px
